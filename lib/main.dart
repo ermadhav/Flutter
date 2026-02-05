@@ -31,7 +31,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          'Greeting from the COSMO CODER',
+          'Greeting from the COSMO ',
           style: TextStyle(
             fontSize: 28,
             fontWeight: FontWeight.bold,
