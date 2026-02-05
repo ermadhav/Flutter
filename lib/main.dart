@@ -33,28 +33,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter Counter App'),
+        title: Text('Hello Cosmo Coder'),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              'Button pressed this many times:',
-              style: TextStyle(fontSize: 18),
-            ),
-            SizedBox(height: 10),
-            Text(
-              '$counter',
-              style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
-            ),
-          ],
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: incrementCounter,
-        child: Icon(Icons.add),
-      ),
+      
     );
   }
 }
