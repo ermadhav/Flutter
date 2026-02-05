@@ -27,7 +27,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('Greeting from the COSMO CODER'),
+        title: const Text('Greeting'),
       ),
       body: const Center(
         child: Text(
