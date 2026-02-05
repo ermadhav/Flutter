@@ -27,11 +27,11 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('Flutter App'),
+        title: const Text('Greeting from the COSMO CODER'),
       ),
       body: const Center(
         child: Text(
-          'Hello Flutter',
+          'Greeting from the COSMO CODER',
           style: TextStyle(
             fontSize: 28,
             fontWeight: FontWeight.bold,
