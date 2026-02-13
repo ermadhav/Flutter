@@ -43,8 +43,8 @@ class _LoginPageState extends State<LoginPage> {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                if (userController.text == "kartik swami" &&
-                    passController.text == "kartik123") {
+                if (userController.text == "Madhav" &&
+                    passController.text == "1234") {
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (_) => const HomePage()),
